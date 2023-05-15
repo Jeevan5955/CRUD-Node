@@ -33,3 +33,36 @@ nvm install node
 ```
 nvm install 18.16.0 
 ```
+
+#### Add .env file with the below parameters:
+
+```
+APP_KEY="user-crud"
+APP_ENV=development
+APP_NAME=user
+
+APP_PORT=9025
+APP_DEBUG=true;
+
+LOG_LEVEL=debug
+LOG_FILE=app
+
+DB_CONNECTION="****"
+DB_DATABASE="****"
+DB_HOST="****"
+DB_USER="****"
+DB_PASSWORD="****"
+
+DATABASE="PROD"
+```
+
+#### How to run:
+
+```
+npm install
+```
+```
+npm start
+```
+
+
