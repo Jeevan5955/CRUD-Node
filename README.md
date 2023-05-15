@@ -65,4 +65,16 @@ npm install
 npm start
 ```
 
+#### Deployment:
+
+PM2 is an open-source process manager for Node.js applications that allows you to monitor and manage your application's lifecycle in production. It's like an administrator that simplifies deployment, log management, and resource monitoring, and helps to minimize downtime for each application under its control
+
+Execute the command below to install pm2 globally:
+```
+npm install -g pm2
+```
+
+```
+pm2 start ecosystem.config.js
+```
 
